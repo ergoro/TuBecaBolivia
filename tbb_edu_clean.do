@@ -11,6 +11,8 @@ quietly by email:  gen dup = cond(_N==1,0,_n)
 	*Number of duplicates
 	tabulate dup
 	list email dup if dup>0
+	*Info duplicates
+	tabulate email forces if email=="fbramosq@gmail.com" | email=="gabiduran8@gmail.com"
 quietly{
 drop if dup>1
 drop dup

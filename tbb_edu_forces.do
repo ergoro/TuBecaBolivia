@@ -30,7 +30,7 @@ gen per2=string(100 * total/t, "%8.1f") + "%"
 								ytitle("Líderes", size(medium) height(5)) ///
 								ylabel(#7) ylabel(, labsize(small)) ///
 								ymtick(##10) ///
-								xtitle("Forces (Áreas)", size(medium) height(5)) ///
+								xtitle("Fuerzas (Áreas)", size(medium) height(5)) ///
 								xlabel(, angle(vertical) labsize(large)) ///
 								xlabel(#15) ///
 								xlabel(1 "Alianzas" 2 "Contenido" 3 "Difusión" 4 "Formación" 5 "Investigación") ///

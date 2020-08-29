@@ -1,6 +1,6 @@
 *Main
 
-cd "C:\Users\undrr02\Desktop\TuBecaBolivia-master"
+cd "C:\Users\Erick Gonzales\Documents\4 BE Useful\Investment\学習塾\tbb_edu\TuBecaBolivia"
 
 *Structure dataset
 do tbb_edu_structure.do
@@ -19,3 +19,15 @@ do tbb_edu_forces.do
 
 *Contenido
 do tbb_edu_contenido.do
+
+*Formación
+do tbb_edu_formacion.do
+
+*Difusión
+do tbb_edu_difusion.do
+
+*Investigación
+do tbb_edu_investigación.do
+
+*Alianzas
+do tbb_edu_alianzas.do

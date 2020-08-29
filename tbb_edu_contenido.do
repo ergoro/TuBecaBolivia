@@ -1,8 +1,8 @@
-*contenido
+*Contenido
 quietly{
 use "tbb_edu_survey_teams.dta", clear
 do tbb_edu_structure.do
-do tbb_edu_clean.do
+*do tbb_edu_clean.do
 }
 	*List of leaders
 	list name if forces=="Contenido"
@@ -36,3 +36,18 @@ encode _varname, gen(f)
 								(scatter v1 f if f==1 | f==2 | f==3 | f==4 | f==5, ///
 								msym(none) mlab(v1) mlabposition(1) mlabcolor(black) mlabsize(medium) mlabangle(ver) legend(off) yaxis(1))
 }
+quietly{
+use "tbb_edu_survey_teams.dta", clear
+do tbb_edu_structure.do
+*do tbb_edu_clean.do
+}
+	*List of leaders CONTENIDO: Contenido
+	list name if forces=="Contenido" & f1contenidos==1
+	*List of leaders CONTENIDO: Métodos
+	list name if forces=="Contenido" & f1métodos==1
+	*List of leaders CONTENIDO: Materiales
+	list name if forces=="Contenido" & f1materiales==1
+	*List of leaders CONTENIDO: Adaptación
+	list name if forces=="Contenido" & f1adaptación==1
+	*List of leaders CONTENIDO: Curricula
+	list name if forces=="Contenido" & f1curricula==1
