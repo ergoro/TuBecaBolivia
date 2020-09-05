@@ -1,6 +1,6 @@
 *Main
 
-cd "C:\Users\Erick Gonzales\Documents\4 BE Useful\Investment\学習塾\tbb_edu\TuBecaBolivia"
+cd "C:\Users\Erick Gonzales\Documents\4 BE Useful\Investment\学習塾\tbb_edu\TuBecaBolivia\Educación"
 
 *Structure dataset
 do tbb_edu_structure.do
